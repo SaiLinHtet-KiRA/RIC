@@ -8,12 +8,12 @@ const Navigation = () => {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "RDC", href: "#rdc" },
+    { name: "RDC", href: "/rdc" },
     { name: "RSU Library", href: "/library" },
-    { name: "Canteen", href: "#canteen" },
-    { name: "Announcements", href: "#announcements" },
-    { name: "Clubs", href: "#clubs" },
-    { name: "Academic Calendar", href: "#calendar" },
+    { name: "Canteen", href: "/canteen" },
+    { name: "Announcements", href: "/announcements" },
+    { name: "Clubs", href: "/clubs" },
+    { name: "Academic Calendar", href: "/calendar" },
   ];
 
   return (
