@@ -13,12 +13,26 @@ import Chatbot from "@/components/Chatbot";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+<<<<<<< HEAD
 
       <Hero />
       <QuickLinks />
      
       <ShuttleBus />
 
+=======
+      <Navigation />
+      <Hero />
+      <QuickLinks />
+      <Canteen />
+      <Announcements />
+      <AdministrationProcess />
+      <Clubs />
+      <AcademicCalendar />
+      <ShuttleBus />
+      <Footer />
+      <Chatbot />
+>>>>>>> origin/main
     </div>
   );
 };
