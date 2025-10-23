@@ -1,6 +1,7 @@
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
+<<<<<<< HEAD
 import { StrictMode } from "react";
 import {
   createBrowserRouter,
@@ -37,3 +38,7 @@ createRoot(document.getElementById("root")!).render(
     <RouterProvider router={routers} />
   </StrictMode>
 );
+=======
+
+createRoot(document.getElementById("root")!).render(<App />);
+>>>>>>> origin/main

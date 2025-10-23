@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import { BookOpen, Library, GraduationCap } from "lucide-react";
+=======
+import { BookOpen, Library, GraduationCap, Target } from "lucide-react";
+>>>>>>> origin/main
 import { Card } from "@/components/ui/card";
 
 const QuickLinks = () => {
   const links = [
     {
+<<<<<<< HEAD
       title: "RDC",
       description: "Research and Development Center - Leading innovation and research initiatives",
       icon: GraduationCap,
@@ -22,6 +27,27 @@ const QuickLinks = () => {
       description: "Student portal for courses, grades, and university services",
       icon: BookOpen,
       href: "#rsu",
+=======
+      title: "RIC",
+      description: "Research and Development Center - Leading innovation and research initiatives",
+      icon: GraduationCap,
+      href: "https://rsuip.org/",
+      color: "primary",
+    },
+    {
+      title: "RSU Cyber",
+      description: "Access our extensive collection of books, journals, and digital resources",
+      icon: Library,
+      href: "https://rsucyber.rsu.ac.th/login/index.php",
+      color: "secondary",
+    },
+    {
+      title: "RSU Intranet",
+      description: "Student portal for courses, grades, and university services",
+      icon: BookOpen,
+      href: "https://intranet.rsu.ac.th/",
+      target: "_blank",
+>>>>>>> origin/main
       color: "accent",
     },
   ];
